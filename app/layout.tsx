@@ -2,6 +2,8 @@ import "./globals.css";
 import { Montserrat } from "next/font/google";
 import Navbar from "./navbar/page";
 import Footer from "./footer/page";
+import Home from "./page";
+import About from "./about/page";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -13,11 +15,7 @@ export const metadata = {
   description: "A Programming Profile",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout() {
   return (
     <html
       lang="en"
@@ -25,7 +23,8 @@ export default function RootLayout({
     >
       <body>
         <Navbar />
-        {children}
+        <Home />
+        <About />
         <Footer />
       </body>
     </html>

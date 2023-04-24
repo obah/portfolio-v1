@@ -3,10 +3,10 @@ import CustomLink from "@/lib/customLink";
 
 export default function Navbar() {
   return (
-    <header className="w-full px-32 py-8 font-medium">
+    <header className="w-full px-32 py-8 font-medium border-b-2 border-dark">
       {/**Logo is here */}
       <nav className="w-1/2 inline-flex items-start">
-        <div className="flex items-center justify-center mt 2">
+        <div className="flex items-center justify-center">
           <CustomLink href="/" title="Obaloluwa" className="" />
           {/**You can use a crown as a logo and your name Obaloluwa */}
         </div>
