@@ -1,4 +1,10 @@
-import { FaGithub, FaTwitter, FaEnvelope, FaLinkedin } from "react-icons/fa";
+import {
+  FaGithub,
+  FaTwitter,
+  FaEnvelope,
+  FaLinkedin,
+  FaWhatsapp,
+} from "react-icons/fa";
 import Link from "next/link";
 
 export default function Footer() {
@@ -10,32 +16,39 @@ export default function Footer() {
         </div>
         <nav className="flex justify-end font-medium">
           <a
-            href="https://www.github.com"
+            href="https://www.github.com/obah"
             target={"_blank"}
             className="px-3 hover:text-amber-500"
           >
             <FaGithub style={{ fontSize: "35px" }} />
           </a>
           <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/obaloluwa"
             target={"_blank"}
             className="px-3 hover:text-amber-500"
           >
             <FaLinkedin style={{ fontSize: "35px" }} />
           </a>
           <a
-            href="https://www.twitter.com"
+            href="https://twitter.com/Oba_Ddev"
             target={"_blank"}
             className="px-3 hover:text-amber-500"
           >
             <FaTwitter style={{ fontSize: "35px" }} />
           </a>
           <a
-            href="https://www.google.com"
+            href="mailto:obaloluwaolusoji@gmail.com"
             target={"_blank"}
             className="px-3 hover:text-amber-500"
           >
             <FaEnvelope style={{ fontSize: "35px" }} />
+          </a>
+          <a
+            href="https://wa.link/4btbvn"
+            target={"_blank"}
+            className="px-3 hover:text-amber-500"
+          >
+            <FaWhatsapp style={{ fontSize: "35px" }} />
           </a>
         </nav>
       </div>

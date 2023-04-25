@@ -2,22 +2,6 @@
 
 import { motion } from "framer-motion";
 
-type MotionParameters = {
-  initial: {
-    opacity: number;
-    y?: number;
-  };
-  animate: {
-    opacity: number;
-    y?: number;
-    transition: {
-      delay?: number;
-      duration?: number;
-      staggerChildren?: number;
-    };
-  };
-};
-
 const quote: MotionParameters = {
   initial: {
     opacity: 1,

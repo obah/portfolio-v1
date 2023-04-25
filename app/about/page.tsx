@@ -6,7 +6,7 @@ import { FaReact, FaNode, FaEthereum } from "react-icons/fa";
 export default function About() {
   return (
     <section>
-      <main>
+      <div>
         <AnimatedText text="About Me" className="" />
         <p>
           I'm a passionate software engineer, focused on making innovative web
@@ -24,7 +24,7 @@ export default function About() {
           Feel free to contact me if you have any job opportunities for me or
           you want to collaborate
         </p>
-      </main>
+      </div>
       <div>
         <h2>My Skillset</h2>
         <div className="flex items-center justify-evenly">
